@@ -1,0 +1,129 @@
+body{
+    /* height: 335px; */
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 2px 9px #888;
+    height: 375px;
+    padding-top: 1%;
+}
+.text{
+    width: 50%;
+    color: #91918b;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+.text .first{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 42px;
+    
+}
+.text .second{
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 32px;
+}
+.text a{
+    border: 1px solid #002751;
+    color: #c7c7c1;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-right: 20px;
+    width: 95px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #2799c6 16%,#006599 100%);
+}
+.tittle{
+    text-align: center;
+    font-size: 3em;
+    line-height: 0;
+    font-family: sans-serif;
+    position: relative;
+    text-transform: capitalize;
+}
+.tittle::after{
+    content: "";
+    width: 37%;
+    height: 1px;
+    background-color: #eaeaea;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+.tittle::before{
+    content: "";
+    width: 37%;
+    height: 1px;
+    background-color: #eaeaea;
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+.col{
+    padding-top: 2%;
+}
+.col-3{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+}
+.icon{
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.brd{
+    border-right: 1px solid #eaeaea;
+    padding-right: 20px;
+}
+.about h2{
+    text-align: center;
+    font-size: 30px;
+    color: #444444;
+    text-align: center;
+}
+.description{
+    font-size: 16px;
+    line-height: 24px;
+}
+.column{
+    clear: both;
+    padding-top: 1%;
+}
+.cnt{
+    width: 100%;
+    background: #dadada;
+    color: #444;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.cnt h3{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+    margin: 0
+}
+
